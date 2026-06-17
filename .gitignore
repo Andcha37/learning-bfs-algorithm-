@@ -1,0 +1,26 @@
+# macOS 자동 생성 파일 제외
+.DS_Store
+
+# 가상환경 제외
+.venv/
+venv/
+ENV/
+
+# 환경변수/개인 설정 파일 제외
+.env
+.env.*
+!.env.example
+
+# 파이썬 캐시 파일 제외
+__pycache__/
+*.pyc
+.matplotlib_cache/
+
+# 주피터 노트북 임시 체크포인트 제외
+.ipynb_checkpoints/
+
+# 실행 로그 제외
+*.log
+
+# 실행 산출물 제외
+outputs/
