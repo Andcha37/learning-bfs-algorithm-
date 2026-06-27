@@ -135,3 +135,4 @@ BFS 계산과는 분리된 부가 기능이라, 없어도 알고리즘 동작에
 
 - 저장소에 `bfs_dfs_comparison/`, `bipartite_check/`, `maze_shortest_path/` 같은 초안 폴더가 남아 있을 수 있는데, 검토는 `main.py` + `main_package/` 기준으로 봐주시면 됩니다.
 - `.venv/`, `__pycache__/`, `.DS_Store`, `.env` 등은 `.gitignore`로 제외했습니다.
+- `presentation_maze.html`은 presentation에서 사용된 html 파일입니다.
